@@ -3,7 +3,7 @@
 A Spring Boot application to manage and query weekly stock records from the Dow Jones Index dataset.
 
 ## Features
-- Upload bulk datasets.
+- Upload bulk/single datasets.
 - Query records by stock ticker.
 - Query All records by stock ticker.
 - Add a new stock record.
@@ -26,7 +26,7 @@ A Spring Boot application to manage and query weekly stock records from the Dow 
 Run tests with `mvn test`.
 
 ## Endpoints
-- **POST /api/stock-records/upload**: Upload a dataset.
-- **GET /api/stock-records/query/{stock}**: Query records by stock ticker.
-- **GET /api/stock-records/query**: Query All records by stock ticker.
-- **POST /api/stock-records/add**: Add a new record.
+- **POST /api/dow-jones/upload-multiple**: Upload a Multiple datasets.
+- **GET /api/dow-jones/query/{stock}**: Query records by stock ticker.
+- **GET /api/dow-jones/query**: Query All records by stock ticker.
+- **POST /api/dow-jones/add**: Add a new record.
